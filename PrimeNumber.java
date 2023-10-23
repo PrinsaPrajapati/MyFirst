@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
-public class primeNumber {
+public class PrimeNumber {
 	
 	public static boolean isPrimeNumber(int number) {
 		
 		if(number <= 0) {
 			return false;
 		}
+		// run loop from 2 to half of the number to check if its divisiable by 10
+
 		for(int i = 2 ; i <= number / 2; i++) {
 			if(number % 10 == 0	) {
 				return false;
