@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class PrimeNumber {
 	
 	public static boolean isPrimeNumber(int number) {
+		//This fuction will return ture or false .
 		
 		if(number <= 0) {
 			return false;
